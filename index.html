@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALIECHI'S portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img src="./pngwing.com.png"  alt="logo">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#early-life">Early Life & Education</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#philosophy">Philosophy</a></li>
+                    <li><a href="#community">Community Services</a></li>
+                    <li><a href="#future">Future Prospects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+
+
+<!-- --------------wecome msg---------------- -->
+
+    <section class="wel-msg">
+          <h1>Welcome to Paliechi's Portfolio</h1>
+          <p>Passionate individual with a strong vision for future</p>
+    </section>
+
+
+<!--------------------introduction-------------------->
+
+    <section class="intro" id="intro">
+<h1 class="point" >Introduction</h1>
+<hr></hr>
+<p class="line" >In the quaint town of Unawuka Emii, a rising star has emerged, shining brightly with unwavering determination and unrelenting passion. Paliechi Samuel, a name synonymous with excellence, is redefining the boundaries of success and inspiring a generation.
+</p>
+    <img class="ko" src="./portpic.png" alt="plalechi">
+</section> 
+
+
+<!-- ---------------------early life&career---------------------- -->
+
+<section class="early-life" id="early-life">
+    <h1 class="point">Early Life & Education</h1>
+    <hr></hr>
+    <p class="line" >
+        Born and raised in Unawuka Emii, Paliechi Samuel's early life was marked by an insatiable thirst for knowledge and a burning desire to succeed. With a strong support system in place, courtesy of his loving family, Paliechi pursued his academic goals with unyielding dedication. His educational journey, though not without its challenges, was a testament to his perseverance and resilience.
+        </p>
+    
+</section>
+
+
+<!-- ---------------------achievements---------------------- -->
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements">
+        <h1 class="point">Achievements</h1>
+        <hr>
+        <div class="achievement-grid">
+            <div class="achievement-card animate__animated animate__fadeInLeft">
+                <i class="fas fa-trophy"></i>
+                <p class="line-2">Guided teams through complex projects with standout leadership</p>
+            </div>
+            <div class="achievement-card animate__animated animate__fadeInUp">
+                <i class="fas fa-users"></i>
+                <p class="line-2">Inspired a new generation of leaders in his community and beyond</p>
+            </div>
+            <div class="achievement-card animate__animated animate__fadeInRight">
+                <i class="fas fa-lightbulb"></i>
+                <p class="line-2">Achieved key milestones through creative problem-solving</p>
+            </div>
+        </div>
+    </section>
+
+
+ <!-- Philosophy -->
+ <section class="philosophy" id="philosophy">
+    <h1 class="point">Philosophy</h1>
+    <hr></hr>
+    <blockquote>"Believe in progress, commit to excellence."</blockquote>
+    <p class="line">SAMUEL work is guided by a philosophy of growth, integrity, and a relentless pursuit of quality.</p>
+</section>
+
+<!-- Community Services -->
+<section class="community" id="community">
+    <h1 class="point">Community Services</h1>
+    <hr></hr>
+    <p class="line">Paliechi Samuel's success is not solely defined by his professional accomplishments. His philanthropic efforts and commitment to community service have had a profound impact on the lives of those around him. Through his selfless endeavors, he has demonstrated a genuine concern for the welfare of others, inspiring countless individuals to follow in his footsteps.
+    </p>
+</section>
+
+<!-- Future Prospects -->
+<section class="future" id="future">
+    <h1 class="point">Future Prospects</h1>
+    <hr></hr>
+    <p class="line">As Paliechi Samuel continues to soar to new heights, his future prospects appear brighter than ever. With his unwavering dedication, unrelenting passion, and commitment to excellence, there is little doubt that he will achieve greatness in all his pursuits.
+
+        The world can expect great things from Paliechi Samuel, a true champion from Unawuka Emii. His name will continue to resonate with success, inspiring generations to come</p>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials" id="testimonials">
+    <h1 class="point">Testimonials</h1>
+    <hr></hr>
+    <img src="https://via.placeholder.com/300" alt="Degree Photo">
+    <p class="line">"SAM is a visionary leader whose work consistently exceeds expectations." - Peer Testimonial</p>
+</section>
+
+
+<!-- ----------------------footer---------------------------------- -->
+<section class="footer">
+    <div class="footer-text">
+      <p>© 2025 NIKHIL YADAV. All rights reserved.</p>
+    </div>
+  
+    <section class="social-icon">
+        <i id="fb" class="fab fa-facebook"></i>
+        <i id="ig" class="fab fa-instagram"></i>
+        <i id="x" class="fab fa-twitter"></i>
+        <i id="in" class="fab fa-linkedin"></i>
+      </a>
+    </section>
+  
+    
+    <a href="#top" class="back-to-top">↑ Back to Top</a><br><br>
+    <a id="iknew" href="https://t.me/Realm_XUSD" class="me">GET YOUR OWN CUSTOM WEBSITE FOR FREE</a>
+  </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"; 
+        }
+    </script>
+
+
+</body>
+</html>
